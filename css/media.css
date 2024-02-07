@@ -1,4 +1,5 @@
 
+
 /* mall devices (landscape phones, 576px and up) */
 @media (max-width: 575px) { 
     h1{
@@ -143,7 +144,8 @@
         padding-bottom: 150px;
     }
     .row__features {
-        padding: 0px 80px;
+        top: -100px;
+        padding: 0px 240px;
     }
 }
 
