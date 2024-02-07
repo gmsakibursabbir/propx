@@ -9,11 +9,11 @@
     }
     .row__features{
 
-        top: -530px;
+        top: -380px;
         padding: 0 50px;
       }
       .row-hero {
-        padding-bottom: 600px;
+        padding-bottom: 450px;
     }
     .challenge-content p {
         line-height: 24px;
@@ -23,6 +23,9 @@
       }
       .card-challenge p {
         font-size: clamp(1rem, 0.6875rem + 1vw, 1.25rem);
+      }
+      .row__challenge{
+        padding-top: 250px;
       }
  }
 
@@ -50,6 +53,9 @@
         top: -240px;
         padding: 0 50px;
       }
+      .row__challenge {
+        padding-top: 140px;
+    }
 
       .row-hero {
         padding-bottom: 270px;
@@ -82,9 +88,12 @@
     .feature-single{
         margin-top: 15px;
     }
+    .row-hero{
+        padding-bottom: 170px;
+    }
     .row__features{
 
-        top: -120px;
+        top: -130px;
         padding: 0 30px;
       }
 
@@ -98,7 +107,9 @@
     .hero_bottom-center {
         line-height: 33px;
       }
-
+      .row__challenge{
+        padding-top: 50px;
+      }
     
     
  }
@@ -115,9 +126,11 @@
       .card-challenge p {
         font-size: clamp(1rem, 0.6875rem + 1vw, 1.25rem);
       }
-      
+      .row-hero{
+        padding-bottom: 160px;
+    }
     .row__features{
-        top: -90px;
+        top: -120px;
         padding: 0 90px;
       }
 
@@ -125,10 +138,13 @@
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    .row__features{
-        padding: 0 300px;
-      }
 
+    .row-hero{
+        padding-bottom: 150px;
+    }
+    .row__features {
+        padding: 0px 80px;
+    }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
